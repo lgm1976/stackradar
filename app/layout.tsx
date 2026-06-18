@@ -19,6 +19,10 @@ export const metadata: Metadata = {
     google:
       process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION ||
       "_R05oWwYuQvU6qjKdQAS3W9DlRh2P4aSM9Z3nAvrLxU",
+    // Bing Webmaster Tools — renders <meta name="msvalidate.01" content="...">
+    other: {
+      "msvalidate.01": "9D2B15C25148CF3260597873BB86B6A3",
+    },
   },
 };
 
