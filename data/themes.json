@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "lead-generation-data-enrichment",
+    "name": "Lead Generation & Data Enrichment",
+    "members": ["clay", "phantombuster", "smartlead", "lemlist"],
+    "intro": "Tools that build, enrich and activate B2B lead lists — from sourcing contacts to launching outreach."
+  },
+  {
+    "slug": "workflow-automation",
+    "name": "Workflow Automation",
+    "members": ["n8n", "make", "zapier"],
+    "intro": "Platforms that connect your apps and automate repetitive processes, from simple triggers to complex backend workflows."
+  },
+  {
+    "slug": "project-work-management",
+    "name": "Project & Work Management",
+    "members": ["clickup", "monday", "asana"],
+    "intro": "Work platforms that centralise tasks, projects and team operations with built-in automation."
+  },
+  {
+    "slug": "ai-agent-development",
+    "name": "AI & Agent Development",
+    "members": ["openai-api", "anthropic-api", "crewai", "langchain", "voiceflow"],
+    "intro": "APIs and frameworks for building LLM-powered apps and autonomous AI agents into your products and workflows."
+  },
+  {
+    "slug": "crm-sales-automation",
+    "name": "CRM & Sales Automation",
+    "members": ["hubspot", "salesforce", "servicenow"],
+    "intro": "Customer and workflow platforms that automate pipelines, sales processes and enterprise operations."
+  },
+  {
+    "slug": "ai-content-conversational",
+    "name": "AI Content & Conversational",
+    "members": ["copyai", "manychat", "voiceflow"],
+    "intro": "AI tools that generate marketing content and automate conversations across chat and social channels."
+  }
+]

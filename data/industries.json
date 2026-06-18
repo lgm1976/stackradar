@@ -1,0 +1,10 @@
+[
+  { "slug": "agencies", "name": "Agencies", "blurb": "Agencies juggling many client accounts need automation that scales across workspaces without per-seat costs spiralling." },
+  { "slug": "startups", "name": "Startups", "blurb": "Early-stage teams need affordable, flexible tools that grow with them and don't require a dedicated ops hire." },
+  { "slug": "enterprise", "name": "Enterprise", "blurb": "Large organisations prioritise governance, security, compliance and the ability to orchestrate complex cross-department workflows." },
+  { "slug": "saas-companies", "name": "SaaS Companies", "blurb": "Product teams embedding automation and AI into their own software need developer-grade, API-first tooling." },
+  { "slug": "e-commerce", "name": "E-commerce", "blurb": "Online stores automate marketing, support and order flows to convert and retain at scale with lean teams." },
+  { "slug": "sales-teams", "name": "Sales Teams", "blurb": "Revenue teams want enriched pipelines, automated outreach and CRM hygiene that frees reps to sell." },
+  { "slug": "marketing-teams", "name": "Marketing Teams", "blurb": "Marketers automate campaigns, content and lead routing to do more with fewer manual hours." },
+  { "slug": "solopreneurs", "name": "Solopreneurs", "blurb": "One-person businesses need affordable, easy automation to punch above their weight without a tech team." }
+]
