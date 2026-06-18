@@ -12,11 +12,14 @@ export const metadata: Metadata = {
     "Independent comparisons and rankings of B2B automation, workflow and agentic AI tools. Find the right stack for your team.",
   metadataBase: new URL(SITE_URL),
   alternates: { canonical: "/" },
-  // Set NEXT_PUBLIC_GOOGLE_VERIFICATION in Vercel to verify Search Console
-  // via the HTML-tag method — no code change or file upload needed.
-  verification: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION
-    ? { google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION }
-    : undefined,
+  // Google Search Console verification — hardcoded so the meta tag is ALWAYS
+  // baked into the build, independent of env vars or build cache. An env var
+  // overrides it if you ever rotate the token.
+  verification: {
+    google:
+      process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION ||
+      "_R05oWwYuQvU6qjKdQAS3W9DlRh2P4aSM9Z3nAvrLxU",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
