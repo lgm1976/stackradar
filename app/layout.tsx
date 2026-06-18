@@ -11,6 +11,12 @@ export const metadata: Metadata = {
   description:
     "Independent comparisons and rankings of B2B automation, workflow and agentic AI tools. Find the right stack for your team.",
   metadataBase: new URL(SITE_URL),
+  alternates: { canonical: "/" },
+  // Set NEXT_PUBLIC_GOOGLE_VERIFICATION in Vercel to verify Search Console
+  // via the HTML-tag method — no code change or file upload needed.
+  verification: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION
+    ? { google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION }
+    : undefined,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
