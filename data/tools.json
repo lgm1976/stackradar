@@ -22,7 +22,7 @@
     "pricing": "Free 1,000 ops/mo; Core from $9/mo",
     "freeTier": true,
     "rating": 4.6,
-    "affiliateUrl": "https://www.make.com",
+    "affiliateUrl": "https://www.make.com/en/register?pc=stackradar2026",
     "pros": ["Generous free tier", "Visual router & branching logic", "Cheaper per-op than Zapier"],
     "cons": ["Operations model can get pricey at scale", "Debugging complex scenarios is fiddly"],
     "bestFor": ["agencies", "solopreneurs", "marketing-teams"]

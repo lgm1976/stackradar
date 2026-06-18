@@ -62,7 +62,7 @@ export function destinationUrl(slug: string): string | null {
   if (!tool) return null;
   // Append our tracking tag only if the URL doesn't already carry params from
   // an affiliate network (avoids double-tagging once real links are added).
-  if (/[?&](ref|aff|partner|via|fpr|aid)=/i.test(tool.affiliateUrl)) {
+  if (/[?&](ref|aff|partner|via|fpr|aid|pc|pap_ref|fp_ref)=/i.test(tool.affiliateUrl)) {
     return tool.affiliateUrl;
   }
   const join = tool.affiliateUrl.includes("?") ? "&" : "?";
